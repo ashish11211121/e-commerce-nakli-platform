@@ -37,8 +37,9 @@ const verifySessionRoute = require("./routes/verifySession");
 
 const app = express();
 const allowedOrigins = [
-  'https://nakli-zon-9oup.vercel.app', // ✅ NO trailing slash
-  'http://localhost:3000' // for local testing
+  'https://a-a-store-frontend.vercel.app',
+  'http://localhost:3000',
+  'http://localhost:5173'
 ];
 
 app.use(cors({

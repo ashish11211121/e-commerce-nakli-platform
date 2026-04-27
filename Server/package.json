@@ -1,9 +1,9 @@
 {
-  "name": "server",
+  "name": "aa-store-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "Premium E-Commerce Platform Backend",
   "license": "ISC",
-  "author": "",
+  "author": "Ashish",
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
