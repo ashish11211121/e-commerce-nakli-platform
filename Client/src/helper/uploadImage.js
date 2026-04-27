@@ -3,7 +3,7 @@ const url = `https://api.cloudinary.com/v1_1/${import.meta.env.VITE_CLOUD_NAME_C
 const uploadImage = async (image) => {
     const formData = new FormData();
     formData.append("file", image);
-    formData.append("upload_preset", "NakliZon");
+    formData.append("upload_preset", "aa_store");
 
     try {
         const dataResponse = await fetch(url, {

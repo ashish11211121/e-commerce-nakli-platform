@@ -1,6 +1,6 @@
 {
     "version" : 2,
-    "name": "NakliZon",
+    "name": "aa-store-server",
     "builds": [
         {
             "src": "index.js",
